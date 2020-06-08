@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: white;
+}
+.nav-header {
+	
+	background-color: blue;
+	}
+.nav-brand{
+	font-size: 1.8em
+}
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-md-12 {
+   
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-sm-12 {
+ 
+    float: left;
+  
+  
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-xs-12 {
+  	float: left;
+   
+  }
+}
